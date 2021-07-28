@@ -110,3 +110,14 @@
 22:02:45.234921 table@remove removed @18
 22:02:45.234921 table@remove removed @15
 22:02:45.235453 table@remove removed @14
+=============== Jul 28, 2021 (CDT) ===============
+11:21:41.572824 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:21:41.582157 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+11:21:41.582157 db@open opening
+11:21:41.582157 journal@recovery F·1
+11:21:41.589176 journal@recovery recovering @25
+11:21:41.602460 memdb@flush created L0@28 N·1 S·213B "unc..own,v62":"unc..own,v62"
+11:21:41.610458 version@stat F·[1 1] S·1KiB[213B 1KiB] Sc·[0.25 0.00]
+11:21:41.624459 db@janitor F·5 G·1
+11:21:41.624459 db@janitor removing table-24
+11:21:41.625456 db@open done T·43.2972ms
